@@ -17,7 +17,8 @@ class Story:
         >>> s.generate(ans)
         'I love to eat a good mango.'
     """
-
+    # words = list of words
+    # text = string that we plug-in word in words
     def __init__(self, words, text):
         """Create story with words and template text."""
 
